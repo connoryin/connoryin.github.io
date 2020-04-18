@@ -724,8 +724,15 @@ fieldset {
 .social li a:hover {
     color: #425BB5;
 }
-
-
+.logo {
+	width: 25%;
+}
+.photo {
+	width: 50%;
+}
+.portrait {
+	width: 35%;
+}
 /* Responsive media queries
 ==================================================*/
 
@@ -740,6 +747,7 @@ fieldset {
         width: 90%;
         left: 2em;
     }
+	
 }
 
 @media (max-width: 500px) {
@@ -759,6 +767,15 @@ fieldset {
         list-style: none;
         margin: 10px 0;
     }
+		.logo {
+			width: 75%;
+		}
+		.photo {
+			width: 75%;
+		}
+		.portrait {
+			width: 55%;
+		}
 }
 
 @media (max-width: 420px) {
@@ -768,4 +785,7 @@ fieldset {
     nav li a {
         font-size: 10px;
     }
+		
 }
+
+
