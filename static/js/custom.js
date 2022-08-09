@@ -110,6 +110,9 @@ $(document).ready(function () {
 	$("#demo03").animatedModal({modalTarget: 'privacyModal'});
 	$("#demo04").animatedModal({modalTarget: 'principalModal'});
 	$("#demo05").animatedModal({modalTarget: 'sohbingModal'});
+	$("#demo06").animatedModal({modalTarget: 'cloudModal'});
+	$("#demo07").animatedModal({modalTarget: 'networkModal'});
+	$("#demo08").animatedModal({modalTarget: 'ethereumModal'});
 
     // Contact Form 	
 
