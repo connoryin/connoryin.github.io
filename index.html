@@ -60,7 +60,7 @@
                     
                     <h1 style="color: white">Xinlong Yin</h1>
 					<div class="h-50"></div>
-					<h2 style="color: white"><span class="text-slider-items" style="display: none">Cloud Computing,Distributed Systems,Computer Networks,Operating Systems,Database Management Systems,Compiler Construction,Embedded System Design,System Design of a Search Engine,Machine Learning</span><strong class="text-slider"></strong></h2>
+					<h2 style="color: white"><span class="text-slider-items" style="display: none">Network Security,Cloud Computing,Distributed Systems,Computer Networks,Operating Systems,Database Management Systems,Compiler Construction,Embedded System Design,System Design of a Search Engine,Machine Learning</span><strong class="text-slider"></strong></h2>
 				</div>
             </div>
         </div>
@@ -74,13 +74,13 @@
                 <h4>01</h4>
                 <h1 class="size-50">Know <br /> About me</h1>
                 <div class="h-50"></div>
-                <p>Xinlong got his master's degree in Computer Science from Georgia Tech. He is interested in system programming related to Operating Systems, Computer Networks, Distributed Systems, and so on. He is very fluent in Python, C++, Javascript, and Go. He is familiar with various frameworks and tools including React, Flask, MySQL, Kubernetes, and ZooKeeper. He did an internship at Amazon last summer, where he built a Python package that can do automatic data analysis, and deployed it onto a CI/CD pipeline on AWS.  He also had 2 full stack development project experiences. He built a Financial service website, sponsored by Principal Financial Group, and a Course management system, sponsored by ByteDance.</p>
+                <p>Xinlong is a Software Development Engineer II at Amazon AWS, where he builds large-scale security scanning systems that check 10M+ IPs daily and support FedRAMP compliance. He got his master's degree in Computer Science from Georgia Tech. He is interested in system programming related to Operating Systems, Computer Networks, Distributed Systems, and so on. He is very fluent in Python, C++, JavaScript, and Go. He is familiar with various frameworks and tools including AWS, React, Flask, MySQL, Kubernetes, and ZooKeeper. He also had 2 full stack development project experiences. He built a Financial service website, sponsored by Principal Financial Group, and a Course management system, sponsored by ByteDance.</p>
 				<br>
 				<br>
 				<h2>My Skills</h2>
 				<ul>
-					<li><strong>Programming Languages:</strong> C++, C, Python, Golang, HTML, CSS, Java, Javascript, Typescript, SQLite, MySQL, Oracle SQL*Plus, MongoDB, MATLAB, Verilog, ARMv8, LC2K, LaTeX, R, C#</li>
-					<li><strong>Frameworks/Tools:</strong> React, Flask, MySQL, SQLite, Wireshark, AWS, Azure, GCP, Git, Linux, TensorFlow, PyTorch, Docker, WebGL, OpenGL, Three.js, libvirt, OpenMP, Open MPI, gRPC, STM32CubeIDE, Android Studio, Ethereum, Ryu Controller</li>
+					<li><strong>Programming Languages:</strong> Python, C++, C, Golang, HTML, CSS, JavaScript, SQL, Java, TypeScript, R, C#</li>
+					<li><strong>Frameworks/Tools:</strong> AWS (Lambda, Fargate, EC2, ECS, DynamoDB, S3, EventBridge, SNS, SQS, Athena), React, Flask, MySQL, SQLite, Kubernetes, ZooKeeper, Redis, Wireshark, Azure, Linux, Docker</li>
 					<li><strong>Applications:</strong> Android Studio, IntelliJ IDEA, PyCharm, Clion, Visual Studio, Dreamweaver, Photoshop, Illustrator, Premiere Pro, After Effects, Audition, Mathematica, Microsoft Office </li>
 					<li><strong>Languages:</strong> Mandarin (native), English (fluent), German (newcomer)</li>
 				</ul>
@@ -108,9 +108,23 @@
                     <li class="timeline-event" data-aos="fade-up">
                         <label class="timeline-event-icon"></label>
                         <div class="timeline-event-copy">
+                            <p class="timeline-event-thumbnail">September, 2023 - Present</p>
+                            <h3>Amazon AWS</h3>
+                            <h4>Software Development Engineer II</h4>
+                            <p>Built an internal network security scanner with <b>Python</b> that scans <b>10M+ IPs daily</b> and surfaces ~100 vulnerabilities per day to the vulnerability remediation team, helping Amazon meet <b>FedRAMP</b> security requirements. Designed the scanning pipeline: an <b>ECS Anywhere</b> cluster orchestrates scanner hosts, <b>DynamoDB</b> stores scan targets and results, and <b>SQS</b> queues move data to and from the hosts; daily target ingestion is automated with an <b>EventBridge</b>-scheduled <b>Fargate</b> job that queries the upstream data provider with <b>Athena</b> and publishes targets via <b>SNS</b>.
+                                <br/>Built an automated canary system that validates every security check hourly in every AWS region and partition, and a customized AI agent that generates canary fixtures — saving canary developers <b>50%</b> of their time.
+                                <br/>Built a self-service endpoint scanning website (<b>React</b> frontend; <b>API Gateway</b> and <b>Lambda</b> backend) that lets users scan an Amazon-owned endpoint and verify a fix immediately — cutting vulnerability remediation time by <b>30%</b>.</p>
+                            <img src="static/img/aws_logo.png" alt="logo" class="logo">
+                            <br/>
+                            <br/>
+                        </div>
+                    </li>
+                    <li class="timeline-event" data-aos="fade-up">
+                        <label class="timeline-event-icon"></label>
+                        <div class="timeline-event-copy">
                             <p class="timeline-event-thumbnail">February, 2023 - September, 2023</p>
                             <h3>AirMettle, Inc.</h3>
-                            <h4>Software Engineer</h4>
+                            <h4>Junior Software Engineer</h4>
                             <p>Added a Bloom-filter with AVX2 to the open-source Simdjson library in <b>C++</b> and made Json parsing faster by up to <b>46%</b>.
                                 <br/>Built an automatic benchmarking system in <b>Python</b> on <b>AWS CodeBuild</b> that can generate performance summary plots.</p>
                             <img src="static/img/airmettle.png" alt="logo" class="logo">
@@ -155,7 +169,8 @@
 							<h4>Master of Science in Computer Science</h4>
 							<p><strong>Cumulative GPA: 3.90 / 4.00</strong><br><em>Selected Coursework:</em>System Design in Cloud Computing (A), Database System Implemnt (A), Advanced Operating Systems (A), Graduate Algorithms (A), Information Security (A), Computer Graphics (A)
 							</p>
-							<img src="static/img/gt.png" alt="logo" class="logo">
+<p><strong>System Design of a Search Engine:</strong> Built a distributed C++ crawler downloading 2,200 pages/sec, obeying robots.txt, with crash recovery via 10-minute checkpointing. Deployed on 11 AWS/Azure servers, downloading 500M pages in 5 days to build indices.</p>
+														<img src="static/img/gt.png" alt="logo" class="logo">
 							<br/>
 							<br/>
                         </div>
@@ -180,7 +195,7 @@
 							<p class="timeline-event-thumbnail">September, 2017 - August, 2019 & May, 2021 - August, 2021</p>
 							<h3>Shanghai Jiao Tong University (SJTU)</h3>
 							<h4>Bachelor of Science in Electrical and Computer Engineering</h4>
-							<p><em>Selected Coursework:</em> Probabilistic Methods in Engineering (A+), Introduction to Programming (A), Programming and Data Structures (A), Introduction to Logic Design (A)</p>
+							<p><strong>Cumulative GPA: 3.47 / 4.00</strong><br><em>Selected Coursework:</em> Probabilistic Methods in Engineering (A+), Introduction to Programming (A), Programming and Data Structures (A), Introduction to Logic Design (A)</p>
 							<img src="static/img/sjtu.png" alt="logo" class="logo">
                         </div>
                     </li>
@@ -526,7 +541,7 @@
 					<li><a href="https://www.linkedin.com/in/xinlong-yin" target="_blank"><i class="fa fa-linkedin" style="font-size: 32px"></i></a></li>
 				</ul>
 				<br/>
-                <h5>Atlanta, GA 30318</h5> <h5><a href="tel: +1(734)882-9361">+1(734)882-9361</a> · <a href="mailto: xyin68@gatech.edu">xyin68@gatech.edu</a></h5>
+                <h5>Seattle, WA 98115</h5> <h5><a href="tel: +1(734)882-9361">+1(734)882-9361</a> · <a href="mailto: connory@umich.edu">connory@umich.edu</a></h5>
             </div>
         </div>
     </div>
